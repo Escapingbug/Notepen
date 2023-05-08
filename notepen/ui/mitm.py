@@ -39,6 +39,7 @@ class ProxyView(View):
 
         self.ui = v.DataTable(
             headers=[
+                {'text': 'Host', 'value': 'host'},
                 {'text': 'Path', 'value': 'path'},
                 {'text': 'Method', 'value': 'method'},
                 {'text': 'Status', 'value': 'status'},
